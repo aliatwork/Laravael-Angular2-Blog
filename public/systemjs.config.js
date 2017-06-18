@@ -6,6 +6,7 @@
  * Adjust as necessary for your application needs.
  */
 (function (global) {
+    System.appVersion = '1.0.0.0';
     System.config({
 
         // map tells the System loader where to look for things
@@ -28,8 +29,8 @@
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
             app: {
-                main: './main.js',
-                defaultExtension: 'js'
+                main: './main',
+                defaultExtension: 'js?v=' + System.appVersion
             },
             rxjs: {
                 defaultExtension: 'js'

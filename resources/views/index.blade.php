@@ -16,7 +16,6 @@
     {{ Html::script('systemjs.config.js') }}
 
     <script>
-//        System.appVersion = '1.0';
         System.import('app').catch(function(err){ console.error(err); });
     </script>
 </head>

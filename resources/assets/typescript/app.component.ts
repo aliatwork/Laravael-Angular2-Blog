@@ -4,6 +4,6 @@
 import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
-    template: '<h1>Hello world!!!</h1>'
+    template: '<h1>Yeah!!!</h1>'
 })
 export class AppComponent { }
